@@ -1,0 +1,59 @@
+SEGFAULT language 
+
+
+The types - vita(int), viti(double), enil(string), cigol(bool)
+in decleration you can variable not assign and it will be initialized to zero
+for type vita are declared + , - , * , / arithmetic:: = , += , -= , *= , /= attribution:: and == , != , < , > , <= , >=  logic operations
+for type viti are declared + , - , * , / arithmetic:: = , += , -= , *= , /= attribution:: and == , != , < , > , <= , >=  logic operations
+for type enil are declared + , += , == , != operations
+in same line is declared any number of actions (+, -, *, /) according to their priority
+in language bass is if of c++ , the difference is that here there are no brackets for the condition 
+the same is for holl(while);
+and for output is dobby(cout) and ^(<<), in same line can be any printable values that are separated by this sign ^ 
+
+////////////////////////////////
+and an example of code that is declaring 2 variables and prints their arithmetic average
+
+vita a = 5 ;
+vita b = 7 ;
+a += b ;
+a /= 2 ;
+dobby a ;
+
+/////////////////////////////////
+and an example of loop work, the code is printing [1, 7] range numbers with difference 1.1
+
+viti a = 1 ;
+holl a <= 7 {
+dobby a ;
+a += 1.1 ;
+}
+
+//////////////////////////////////
+and an example 
+
+vita a = 12 ;
+vita b = 24 ;
+viti c = 3.14 ;
+a = 32 + b * 5 - 3 ;
+b = 56 - 6 - 3 * 2 ;
+c = 2.3 * 4.5 + 1.3 * 8.1 ;
+cigol asss = false ;
+enil em = "bravo" ;
+dobby a ^ c ^ 67 ^ a ^ asss ^ em ;
+
+bass em == "bravo" {
+c *= 2.5 ;
+}
+
+em = To + be, + or + not + to + be ;
+dobby em ;
+a = 0 ;
+
+holl a <= 5 {
+dobby a ;
+a += 1 ;
+}
+
+dobby c ;
+dobby a ;
